@@ -1,0 +1,160 @@
+.top{
+	position: relative;
+	background: #fff;
+	margin-top: 10px;
+	width:96%;
+	padding:10px 2% 20px 2%;
+}
+.top form{
+	position: relative;
+}
+.top form>span,.top form div,.top form input{
+	position: relative;
+	float:left;
+	display: block;
+	line-height: 30px;
+	margin: 0 2px;
+}.top form .select,.top form input{
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #3CACFE;
+	border-radius: 3px;
+}.top form .select{
+	width: 17%;
+}.top form .select span{
+	width:97%;
+	text-align:left;
+	padding-left: 3%;
+}.top form input{
+	width: 35%;
+}
+.top form .select label{
+	position: absolute;
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 8px solid #9D9D9F;
+	right: 3px;
+	top:10px;
+}.top form .select ul{
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	z-index: 3;
+	background: #fff;
+	text-align: center;
+	display: none;
+}
+.btn{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px !important;
+}.btn a{
+	width: auto;
+	display: inline-block;
+	padding: 0 10px;
+	text-align: center;
+	line-height: 35px;
+	color: #FFFFFF;
+	background: #4356a5;
+	min-width: 80px;
+}
+
+.table{
+	width: 100%;
+	border-collapse: collapse;
+	border: none;
+	text-align: center;
+}.table th{
+	background: #d8d8d8;
+}.table tr{
+	height: 35px;
+}
+.table tr:nth-child(2n) td{
+	background: #d8d8d8;
+	color: #565656;
+}.table tr:nth-child(2n-1) td{
+	background: #fff;
+	color: #565656;
+	
+}
+
+
+
+
+/*我的图书页面*/
+
+#buyList{
+	position: relative;
+}
+#buyList li{
+	position: relative;
+	width: 96%;
+	padding: 5px 2%;
+	margin: 3px 0;
+}#buyList li:nth-child(2n){
+	color:#3CACFE;
+}#buyList li:nth-child(2n-1){
+	background: rgba(123,172,210,0.2);
+	color: #666;
+}#buyList li:last-child{
+	border-bottom: 1px dotted #7BACD2;
+}
+#buyList li p{
+	
+	line-height: 15px;
+	font-size: 12px;
+}
+#buyList li p b{
+	color: #f72F20;
+}
+
+#buyList li p span{
+	display: inline-block;
+	width: 70px;
+	text-align-last: justify;
+}#buyList li a{
+	position: absolute;
+	top: 10px;
+	right: 2%;
+	font-size: 12px;
+	height: 25px;
+	line-height: 25px;
+}
+#buyList li .cz{
+	height: 18px;
+	line-height: 18px;
+	top: 5px;
+	
+}#buyList li .cz2{
+	height: 18px;
+	line-height: 18px;
+	top: 27px;
+	
+}
+
+#bookdetails{
+	position: relative;
+	width:90%
+	margin:10px auto;
+	padding: 10px 0;
+}#bookdetails li{
+	position: relative;
+	line-height: 30px;
+	height: 30px;
+}#bookdetails li span:first-child{
+	display: inline-block;
+	min-width:25% ;
+	text-align: right;
+}
+
+@media only screen and (max-width:360px ) {
+	.top form .select{
+		width: 15%;
+	}.top form input{
+		width: 30%;
+	}
+}

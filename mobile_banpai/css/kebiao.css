@@ -1,0 +1,308 @@
+.tab{
+	position: relative;
+	width: 100%;
+	background: #fff;
+	height: 60px;
+}
+.tab li{
+	position: relative;
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	/*margin: 5px 0;*/
+	text-align: center;
+	width: 50%;
+	color: #444;
+	/*border-right: 1px solid #D8D8D8;*/
+}.tab li:last-child{
+	border-right:none;
+}.tab li:first-child{
+	background:#eaf7ff;
+	color: #40aff7;
+}
+.tab li img{
+	float: left;
+	width: 30px;
+	margin:15px;
+	margin-left: 20%;
+}.tab li span{
+	float: left;
+}
+.datechose,.teremchose{
+	position:relative;
+	width: 96%;
+	margin:10px auto 0 auto;
+	background: #fff;
+	text-align: center;
+	height:50px;
+	line-height: 50px;
+	font-size: 16px;
+	color: #818181;
+	z-index: 10;
+}
+.teremchose{
+	width: 100%;
+	margin:0 auto;
+}
+
+
+.datechose .label,.teremchose .label,.label{
+	display: inline-block;
+	width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #9b9b9b;
+    margin:0 10px;
+}.label{
+	border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+	border-top: 8px solid #fff;
+}
+.datechose ul,.teremchose ul{
+	display: none;
+	position: relative;
+	background: #f8f8f8;
+	height:240px;
+	overflow-y: auto;
+}
+.table{
+	position: relative;
+	width: 96%;
+	margin: 0 auto;
+}
+.table table{
+	width: 100%;
+	border: none;
+	border-collapse: collapse;
+}.table table tr{
+	height: 60px;
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+}
+.table tr:nth-child(2n) td:nth-child(2n){
+	background: #d8d8d8;
+}
+.table tr:nth-child(2n) td:nth-child(2n-1){
+	background: #b3b3b5;
+}
+.table tr:nth-child(2n-1) td:nth-child(2n){
+	background: #aeaeb0;
+}.table tr:nth-child(2n-1) td:nth-child(2n-1){
+	background: #9e9ea0;
+}.table tr:nth-child(2n) td:nth-child(1){
+	background: #6fbaf1;
+}.table tr:nth-child(2n-1) td:nth-child(1){
+	background: #82a0ba;
+}.table tr:nth-child(1) th:nth-child(2n-1){
+	background: #6fafdf;
+}.table tr:nth-child(1) th:nth-child(2n){
+	background: #80c0ee;
+}
+
+
+/*个人评价页面*/
+.banner{
+	position: relative;
+	width: 82%;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.banner .bdiv{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border: 2px solid #3CACFE;
+	overflow: hidden;
+}
+
+.banner>a{
+	position: absolute;
+	display: block;
+	top: 43%;
+}.banner>a img{
+	width: 15px;
+	height: 30px;
+}#leftear{
+	left:-22px;
+}#rightear{
+	right:-22px;
+}.banner ul{
+	position: relative;
+	height: 100%;
+	background: #fff;
+}.banner ul li{
+	position: relative;
+	height: 100%;
+	float: left;
+	box-sizing:border-box;
+}.banner ul li .eva{
+	position: relative;
+	height: 50%;
+	width: 100%;
+}
+.banner ul li .evacontent{
+	position: relative;
+	height: 75%;
+	width: 90%;
+	margin: 10px auto 0 auto;
+	overflow-y: auto;
+	font-size: 12px;
+	line-height: 20px;
+	color:#777777;
+}.banner ul li .eva p{
+	position: relative;
+	width: 100%;
+	height: 40px;
+	border-bottom: 2px solid #3CACFE;
+}.banner ul li .eva p span{
+	position: relative;
+	width: auto;
+	padding: 5px 20px;
+	background: #3CACFE;
+	color: #fff;
+	position: absolute;
+    bottom: 0px;
+	left:0px;    
+}
+
+
+
+/*个人成绩页面*/
+
+#tablist{
+	position: relative;
+	width: 96%;
+	margin: 15px auto;
+}#tablist table{
+	position: relative;
+	width: 32%;
+	margin:0 0.6%;
+	float: left;
+	border:2px solid #3CACFE;
+	border-collapse: collapse;
+}#tablist table thead{
+	background: #3CACFE;
+	color: #fff;
+}#tablist table tr,#tablist table th{
+	height: 40px;
+}#tablist table td{
+	background: #fff;
+	border: 1px solid #dBdBdB;
+}
+#tablist table tr td:first-child {
+	border-left: 2px solid #3CACFE;
+}
+#tablist table tr:last-child td{
+	border-bottom: 2px solid #3CACFE;
+}#tablist table tr td:last-child {
+	border-right: 2px solid #3CACFE;
+}
+#yuekao{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 100%;
+	left: 0px;
+	background: #3CACFE;
+	display: none;
+}#yuekao li{
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #3dbdFE;
+}
+
+
+/*班级评比页面*/
+.div{
+	position: relative;
+	background: #fff;
+	margin-top:5px ;
+}.div .titCenter{
+	width: 35%;
+	background: #3CACFE;
+	color: #fff;
+	margin: 0 auto;
+}.div .divtab{
+	width: 100%;
+	border: none;
+	border-collapse: collapse;
+}.div .divtab tr{
+	height: 45px;
+	color: #f0f0f0;
+	font-size: 14px;
+	
+}.div .divtab th{
+	font-weight: 400;
+	
+}.div .divtab tr:nth-child(2n-1) td:nth-child(2n-1),.div .divtab tr:nth-child(2n-1) th:nth-child(2n-1){
+	background: #88888a;
+}.div .divtab tr:nth-child(2n-1) td:nth-child(2n),.div .divtab tr:nth-child(2n-1) th:nth-child(2n){
+	background: #919193;
+}
+.div .divtab tr:nth-child(2n) td:nth-child(2n-1),.div .divtab tr:nth-child(2n) th:nth-child(2n-1){
+	background: #9d9d9f;
+}.div .divtab tr:nth-child(2n) td:nth-child(2n),.div .divtab tr:nth-child(2n) th:nth-child(2n){
+	background: #b2b2b4;
+}
+
+
+
+/*个人作业页面*/
+.subjectDiv{
+	position: relative;
+	height: 65px;
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+}.subjectDiv .ea{
+	position: absolute;
+	display: block;
+	width: 0px;
+	height: 0px;
+	top: 50%;
+	border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+	margin-top: -10px;
+}
+.subjectDiv #lear{
+	left: 5px;
+	border-right: 10px solid #9b9b9b;;
+}.subjectDiv #rear{
+	right: 10px;
+	border-left: 10px solid #9b9b9b;;
+}
+.subjectDiv .subject{
+	position: relative;
+	margin: 0 auto;
+}.subjectDiv .subject li{
+	position: relative;
+	float: left;
+	line-height: 65px;
+	text-align: center;
+	font-size: 16px;
+	color:#838383;
+	width: 80px;
+}.subjectDiv .subject li:first-child{
+	background:#eaf7ff;
+	color: #3CACFE;
+}
+/*班级货活动页面*/
+.hd{
+position: relative;
+width: 94%;
+text-align: center;
+line-height: 30px;
+border: none;
+margin:0 auto;
+}
+.hd label{
+	display: block;
+	width: 36%;
+	height: 2px;
+	background:#3CACFE;
+	margin-top: 15px;
+}.hd span {
+	font-size: 16px;
+}

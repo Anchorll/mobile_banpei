@@ -1,0 +1,145 @@
+body{
+	position: relative;
+	background: #e6e6e4;
+}
+.div1{
+	position: relative;
+	background: #fff;
+}
+.div1 .infoa{
+	position: relative;
+	display: block;
+	width: 94%;
+	height: 55px;
+	margin: 0px auto;
+	padding: 15px 0;
+}
+#headimg{
+	float: left;
+	width: 55px;
+	height: 55px;
+	margin-right: 2%;
+	border-radius:50%;
+	background: #00f;
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.div1 .infoa p,.div1 .infoa span{
+	float: left;
+	width: 70%;
+}
+.div1 .infoa p{
+	font-size: 20px;
+	line-height: 35px;
+	color:#404040;
+}.div1 .infoa span{
+	font-size: 14px;
+	line-height: 20px;
+	color: #777;
+}
+.div1 .infoa img{
+	float: right;
+	width: 25px;
+	margin: -20px 0;
+}.div1 ul{
+	position: relative;
+	width: 85%;
+	margin:10px auto;
+}.div1 ul li{
+	position: relative;
+	float: left;
+	width: 33.33%;
+	text-align: center;
+	padding-bottom: 10px;
+}.div1 ul li a{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+}.div1 ul li img{
+	width:25px;
+}.div1 ul li .p1{
+	color: #9b9b9b;
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 5px;
+}.div1 ul li .p2{
+	color: #505050;
+}
+
+.zhiriinfo{
+	position:relative;
+	background: #fff;
+	width: 100%;
+	height: 75px;
+	margin: 10px 0;
+	padding:5px 0;
+}.zhiriinfo .title,.cCompare .title{
+	width: 35%;
+	position: relative;
+	height:100%;
+	line-height: 75px;
+	font-size: 16px;
+}
+.zhiriinfo .title img,.cCompare .title img{
+	width: 30px;
+	float: left;
+	margin-left:15%;
+	margin-top:20px;
+}
+.zhiriinfo .zhiri{
+	position: relative;
+	width:32%;
+	height: 100%;
+	text-align: center;
+}.zhiriinfo .zhiri p{
+	color:#505050;
+	line-height: 25px;
+}
+
+/*班级评比*/
+.cCompare{
+	position: relative;
+	background: #fff;
+	width: 100%;
+}
+#compare{
+	position: relative;
+	width: 78%;
+	padding-top: 1px;
+	padding-bottom: 10px;
+	margin: -15px auto 0 auto;
+}#compare li{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	margin: 5px 0;
+}#compare li span{
+	display: inline-block;
+	float: left;
+}#compare li .cname{
+	width: 23%;
+}#compare li .star{
+	width: 55%;
+}#compare li .star img{
+	float:left;
+	width: 22px;
+	margin: 4px 3% 0px 3%;
+}#compare li .grade{
+	width: 22%;
+}
+@media only screen and (max-width: 360px) {
+	#compare{
+		width: 90%;
+	}
+	.zhiriinfo .title,.cCompare .title{
+	font-size: 14px;
+	}
+	#compare li .star img{
+		margin: 4px 2.5% 0px 2.5%;
+}
+	
+}

@@ -1,0 +1,170 @@
+
+.listul{
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+	background: #fff;
+}.listul li{
+	position: relative;
+	width: 96%;
+	height: 80px;
+	margin:0 auto;
+	border-bottom: 1px solid #D8D8D8;
+}.listul li:last-child{
+	border-bottom:none;
+}
+.listul li a{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.listul li a .imgdiv{
+	position: relative;
+	float: left;
+	width:90px;
+	height: 60px;
+	margin-top: 10px;
+	margin-right: 10px;
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}.listul li a .titlep{
+	position: relative;
+	width: 65%;
+	font-size: 16px;
+	line-height: 80px;
+	float: left;
+	color: #404040;
+}
+.mengban{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height:100%;
+	background: rgba(0,0,0,0.4);
+	z-index: 13;
+	display: none;
+}
+.banner{
+	position: fixed;
+	height: 70%;
+	width: 82%;
+	left:9%;
+	top: 100px;	
+	display: none;
+	z-index: 14;
+}
+.banner .bdiv{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.banner>a{
+	position: absolute;
+	display: block;
+	top: 43%;
+}.banner>a img{
+	width: 15px;
+	height: 30px;
+}#leftear{
+	left:-22px;
+}#rightear{
+	right:-22px;
+}.banner ul{
+	position: relative;
+	height: 100%;
+	background: #fff;
+}.banner ul li{
+	position: relative;
+	height: 100%;
+	float: left;
+	box-sizing:border-box;
+}
+.titleimg{
+	width: 100%;
+}.artp{
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+}
+.artcontent{
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+
+
+/*教师风采页面*/
+.teacherimg{
+	float:left;
+	width: 35%;
+	margin: 20px 2%;
+	height: 120px;
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#ulimg li .fr{
+	position: relative;
+	width:58%;
+	margin: 40px 2% 0 0;
+}#ulimg li .fr p span{
+	float: left;
+}#ulimg li .fr p span:nth-child(1){
+	width: 26%;
+	text-align: center;
+}#ulimg li .fr p span:nth-child(2){
+	width: 74%;
+	
+}#ulimg li .p{
+	width: 80%;
+	margin: 5px auto;
+	line-height: 25px;
+	
+}
+
+
+/*公告信息页面*/
+.dateul{
+	position: relative;
+	background: #fff;
+	width: 100%;
+	height: 50px;
+}.dateul li{
+	float: left;
+	width: 25%;
+	text-align: center;
+	line-height: 50px;
+}.dateul li:first-child{
+	background: #eaf7ff;
+}.dateul li label{
+	float:right;
+	width: 0px;
+	height: 0px;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 8px solid #919193;
+	margin: 20px 10px 0 0;	
+}
+.hd{
+position: relative;
+width: 94%;
+text-align: center;
+line-height: 50px;
+border: none;
+height: 50px;
+margin:0 auto;
+}
+.hd label{
+	display: block;
+	width: 36% !important;
+	height: 2px;
+	background:#3CACFE;
+	margin-top: 25px !important;
+}.hd span {
+	font-size: 16px;
+}

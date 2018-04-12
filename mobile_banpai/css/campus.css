@@ -1,0 +1,139 @@
+
+.menuNavi {
+	position: relative;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.menuNavi li {
+	position: relative;
+	float: left;
+	background: #fff;
+	width: 33.3%;
+	height: 100px;
+	box-sizing: border-box;
+	border-right: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.menuNavi li:nth-child(3n) {
+	border-right: none;
+}
+
+.menuNavi li:nth-child(10),
+.menuNavi li:nth-child(11),
+.menuNavi li:nth-child(12) {
+	border-bottom: none;
+}
+
+.menuNavi li a {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-align: center;
+}
+
+.menuNavi li a p {
+	color: #9B9B9B;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.menuNavi li a img {
+	width: 23%;
+	margin: 18% 0 0 0;
+}
+
+
+/*轮播*/
+
+.banner {
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+
+#ulimg {
+	display: block;
+	width: 300%;
+	/*不是一个固定的值,根据要轮播的图片张数而定*/
+	height: 100%;
+}
+
+#ulimg li {
+	float: left;
+	position: relative;
+	width: 33.33%;
+	/*不是一个固定的值根据要轮播的图片张数而定*/
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#ulcircle {
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+	height: 20px;
+}
+
+#ulcircle li {
+	float: left;
+	position: relative;
+	width: 13px;
+	height: 13px;
+	margin: 0 5px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+}
+
+.on-color {
+	background: #fff;
+}
+
+li {
+	list-style: none;
+}
+
+#leftear,
+#rightear {
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+	background: rgba(255, 255, 255, 0.5);
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	display: none;
+}
+
+@media only screen and (min-width: 500px) {
+	.menuNavi li a img {
+		width: 15%;
+		margin: 10% 0 0 0;
+	}
+	.menuNavi li {
+		height: 120px;
+	}
+	.banner {
+		height: 300px;
+	}
+	
+}
+
+/*校园简介*/
+#introduct{
+	position: relative;
+	background: #fff;
+}
+#introduct img{
+	width: 100%;
+}
+#introduct #jianjie{
+	width: 94%;
+	margin: 10px auto
+}
